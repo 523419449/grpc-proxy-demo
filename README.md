@@ -1,31 +1,32 @@
-# grpc-demo  introduces using grpc
+# GRPC演示介绍
+# 使用GRPC
 
-1.Introduction   grpc
+1.GRPC简介
 
-2.Simple demo of grpc 
+2.GRPC的简单演示
 
-3.Using OpenSSL encryption of grpc transport
+3.使用OpenSSL加密GRPC传输
 
-4.How  to  using protobuf  oneof
+4.如何使用Protobuf OneOf
 
-5.How  to  using  client-stream and service-stream
+5.如何使用客户端流和服务流
 
-6.Add client and server interceptor
+6.添加客户端和服务器拦截器
 
-7.How to using NameResovler
+7.如何使用NameResovler
 
-8.How to using RoundRobinLoadBalancer
+8.如何使用RoundRobinLoadBalancer
 
-9.Using grpc proxy
+9.使用GRPC代理
 
 
-## Introduction   grpc
 
-gRPC is a modern open source high performance RPC framework that can run in any environment. It can efficiently co nnect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services.
+## GRPC简介
 
+GRPC是一个现代的开源高性能RPC框架，可以在任何环境中运行。它可以高效地在数据中心内部和跨数据中心连接服务，并支持可插拔的负载平衡、跟踪、运行状况检查和身份验证。它也适用于分布式计算的最后一英里，将设备、移动应用程序和浏览器连接到后端服务。
 ![image](http://www.grpc.io/grpc.github.io/img/landing-2.svg)
 
-### Learning materials
+### 学习材料
 [grpc-java](https://github.com/grpc/grpc-java)
 
 [grpc-home](http://www.grpc.io/)
